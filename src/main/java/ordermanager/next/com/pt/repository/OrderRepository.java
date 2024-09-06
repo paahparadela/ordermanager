@@ -1,5 +1,9 @@
 package ordermanager.next.com.pt.repository;
 
-public class OrderRepository {
+import org.springframework.data.repository.CrudRepository;
+
+import ordermanager.next.com.pt.model.Order;
+
+public interface OrderRepository extends CrudRepository<Order, Long>{
 
 }
