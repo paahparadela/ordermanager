@@ -1,5 +1,11 @@
 package ordermanager.next.com.pt.model;
 
-public class Item {
+import lombok.Data;
 
+@Data
+public class Item {
+	
+	private long id;
+	private String name;
+	
 }
